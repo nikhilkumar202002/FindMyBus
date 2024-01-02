@@ -1,0 +1,127 @@
+
+.header-search input{
+    width: 200px;
+    height: 66px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: 1px solid rgb(231, 231, 231);
+}
+.header-search{
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    margin-top: 30px;
+    padding-left: 40px;
+    z-index: -3;
+}
+.header-search button{
+    width: 120px;
+    height: 70px;
+    font-family: "Poppins";
+    color: white;
+    background-color: #ED2B2A;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.header-search-elements{
+    /* position: absolute; */
+    z-index: 6;
+    width: 785px;
+    height: 300px;
+    margin-left: 90px;
+    margin-top: -500px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: auto;
+}
+.search-items{
+    padding: 20px 30px ;
+    font-size: 17px;
+    font-family: "Poppins";
+}
+.search-items span{
+    float: right;
+}
+
+.header-flex{
+    display: flex;
+}
+
+.bus-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    border-radius: 4px;
+    width: 300px;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    margin: auto;
+    margin-top: 20px;
+
+}
+.bus-logo{
+    width: 25px;
+    border-radius: 30px;
+    padding-right: 20px;
+}  
+.bus-logo img{
+    width: 100%;
+} 
+.bus-card-header{
+    display: flex;
+    align-items: center;
+}
+.bus-name p{
+    font-family: "Poppins";
+    font-size: 18px;
+    color: rgb(52, 52, 52);
+    font-weight: 500;
+}
+.bus-place{
+    margin-top: -23px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+.bus-status-elements{
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: rgb(0, 185, 0);
+}
+.bus-status{
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+}
+.bus-status-line{
+    width: 55px;
+    height: 3px;
+    background-color: rgb(0, 185, 0);
+}
+.bus-details{
+    width: 400px;
+    height: 100vh;
+    overflow: auto;
+    background-color: transparent;
+    padding-top: 30px;
+    margin-left: 120px;
+}
+.bus-cards{
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+.card-heading{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.bus-map{
+    margin-top: -600px;
+    padding-left: 40px;
+}

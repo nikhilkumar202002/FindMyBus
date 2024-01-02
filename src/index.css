@@ -1,13 +1,25 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  padding: 0;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+@font-face {
+  font-family: clashlight;
+  src: url(Assets/fonts/clashdisplay/ClashDisplay-Light.otf);
+}
+@font-face {
+  font-family: clashregular;
+  src: url(Assets/fonts/clashdisplay/ClashDisplay-Regular.otf);
+}
+@font-face {
+  font-family: clashbold;
+  src: url(Assets/fonts/clashdisplay/ClashDisplay-Bold.otf);
+}
+@font-face {
+  font-family: clashsemibold;
+  src: url(Assets/fonts/clashdisplay/ClashDisplay-Semibold.otf);
+}
+@font-face {
+  font-family: clashmedium;
+  src: url(Assets/fonts/clashdisplay/ClashDisplay-Medium.otf);
 }

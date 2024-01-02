@@ -1,0 +1,16 @@
+.navbar-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+    background-color: #ED2B2A;
+}
+.navbar-logo{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: clashmedium;
+    letter-spacing: 2.5px;
+}
